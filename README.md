@@ -36,6 +36,8 @@ Obs.: É possível facilmente alterar a conexão de string para outro banco de d
 
 ## Git Flow
 
+Git flow utilizado para este projeto:
+
 ![](img/git-flow.jpg)
 
 ## Get started
