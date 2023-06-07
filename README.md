@@ -32,9 +32,10 @@ O banco de dados utilizado foi o [*SQL Server Express LocalDB*](https://learn.mi
 
 Obs.: É possível facilmente alterar a conexão de string para outro banco de dados onpremisse como Microsoft SQL Server Express ou Microsoft SQL Server ou cloud como Microsoft Azure SQL Database.
 
-# Fluxo da aplicação
+## Fluxo da aplicação
 
 ## Get started
 
 ## Git Flow
 
+![](img/git-flow.jpg)
