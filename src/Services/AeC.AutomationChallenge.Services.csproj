@@ -15,4 +15,8 @@
     <ProjectReference Include="..\Domain\AeC.AutomationChallenge.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Configuration\Selenium\" />
+  </ItemGroup>
+
 </Project>

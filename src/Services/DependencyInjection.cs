@@ -1,5 +1,5 @@
 ﻿using AeC.AutomationChallenge.Domain.Interfaces.Services;
-using AeC.AutomationChallenge.Services.HomePageSearchData;
+using AeC.AutomationChallenge.Services.Services.GetHomePageSearchData;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace AeC.AutomationChallenge.Services

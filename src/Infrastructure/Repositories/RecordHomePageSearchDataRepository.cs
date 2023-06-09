@@ -12,11 +12,11 @@ namespace AeC.AutomationChallenge.Infrastructure.Repositories
             _dbContext = dbContext;
         }
 
-        public async Task<Guid> RecordHomePageSearchData(HomePageSearchDataDto dto, CancellationToken cancellationToken)
+        public async Task<HomePageSearchDataDto> RecordHomePageSearchData(HomePageSearchDataDto dto, CancellationToken cancellationToken)
         {
             _dbContext.HomePageSearchData.Add(dto);
             await _dbContext.SaveChangesAsync(cancellationToken);
-            return dto.Id;
+            return dto;
         }
     }
 }

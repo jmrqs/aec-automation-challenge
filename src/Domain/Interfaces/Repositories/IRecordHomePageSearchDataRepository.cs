@@ -4,6 +4,6 @@ namespace AeC.AutomationChallenge.Domain.Interfaces.Repositories
 {
     public interface IRecordHomePageSearchDataRepository
     {
-        Task<Guid> RecordHomePageSearchData(HomePageSearchDataDto dto, CancellationToken cancellationToken);
+        Task<HomePageSearchDataDto> RecordHomePageSearchData(HomePageSearchDataDto dto, CancellationToken cancellationToken);
     }
 }

@@ -1,8 +1,8 @@
-using AeC.AutomationChallenge.Infrastructure.Persistence;
-using AeC.AutomationChallenge.WebApi;
-using AeC.AutomationChallenge.Services;
-using AeC.AutomationChallenge.Infrastructure;
 using AeC.AutomationChallenge.Application;
+using AeC.AutomationChallenge.Infrastructure;
+using AeC.AutomationChallenge.Infrastructure.Persistence;
+using AeC.AutomationChallenge.Services;
+using AeC.AutomationChallenge.WebApi;
 using AeC.AutomationChallenge.WebApi.Endpoints;
 
 var builder = WebApplication.CreateBuilder(args);

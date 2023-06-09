@@ -9,8 +9,8 @@ namespace AeC.AutomationChallenge.WebApi.Endpoints
         public static void MapHomePageEndpoints(this WebApplication app)
         {
             var group = app
-                .MapGroup("homePage")
-                .WithTags("RecordSearchData")
+                .MapGroup("RecordHomePageSearchData")
+                .WithTags("homePage")
                 .WithOpenApi();
 
             group

@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 
-namespace AeC.AutomationChallenge.Application.HomePage.EventHandlers
+namespace AeC.AutomationChallenge.Application.HomePage.EventHandlers.RecordSearchData
 {
     public class HomePageSearchDataRecordedEventHandler : INotificationHandler<HomePageSearchDataRecordedEvent>
     {
