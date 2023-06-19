@@ -26,7 +26,7 @@ Obs.: É possível facilmente alterar a conexão de string para outro banco de d
 
 ### .NET 7
 
-Foi escolhida a versão do .NET 7 por ser a versão mais recente atualmente com suporte (LTS), também por questão de aprendizagem já que os projetos grande parte estão em versões anteriores.
+Foi escolhida a versão do .NET 7 por ser a versão mais recente atualmente com suporte (STS), também por questão de aprendizagem já que os projetos grande parte estão em versões anteriores.
 
 ### ASP.NET Core Web Api
 
